@@ -1,0 +1,1 @@
+-c --device DARMSTM -D__MICROLIB -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I "D:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\Obj\si4432.o" --omf_browse ".\Obj\si4432.crf" --depend ".\Obj\si4432.d" "..\Source\Drivers\si4432.c"

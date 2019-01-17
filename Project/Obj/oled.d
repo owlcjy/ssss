@@ -1,0 +1,12 @@
+.\Obj\oled.o: ..\Source\Drivers\oled.c
+.\Obj\oled.o: ..\Source\Drivers\oled.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\CMSIS\core_cm3.h
+.\Obj\oled.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h
+.\Obj\oled.o: ..\Source\Application\main\stm32f10x_conf.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h
+.\Obj\oled.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h

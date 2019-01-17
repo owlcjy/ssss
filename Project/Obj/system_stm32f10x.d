@@ -1,0 +1,11 @@
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.c
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\CMSIS\core_cm3.h
+.\Obj\system_stm32f10x.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h
+.\Obj\system_stm32f10x.o: ..\Source\Application\main\stm32f10x_conf.h
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h
+.\Obj\system_stm32f10x.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h

@@ -1,0 +1,30 @@
+SET PATH=C:\Keil\ARM\ARMCC\bin\;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib;C:\Program Files\STMicroelectronics\st_toolset\asm;C:\MentorGraphics\9.5PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.5PADS\MGC_HOME.ixn\lib;C:/Program Files/Texas Instruments/xdctools_3_22_01_21;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Altium Designer Winter 09\System;C:\Program Files\Rohde-Schwarz\Compass\2.7\bin\;C:\Program Files\MATLAB\R2009a\bin;C:\Program Files\MATLAB\R2009a\bin\win32;;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\pspice\library;C:/Program Files/Texas Instruments/xdctools_3_22_01_21;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib
+SET CPU_TYPE=STM32F103C8
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=STM32RF
+SET CPU_CLOCK=0x007A1200
+"C:\Keil\ARM\ARMCC\bin\ArmAsm" --Via ".\startup_stm32f10x_hd._ia"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "main.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "stm32f10x_it.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "rf.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "function.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "oled.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "usart1.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "i2c.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "si7021.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "delay.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "sx1276-loramisc.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "spi.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "gpio.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "sx1276-lora.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "core_cm3.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "system_stm32f10x.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "misc.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "stm32f10x_rcc.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "stm32f10x_gpio.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "stm32f10x_usart.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "stm32f10x_flash.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "stm32f10x_i2c.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmCC" --Via "stm32f10x_spi.__i"
+"C:\Keil\ARM\ARMCC\bin\ArmLink" --Via "STM32_Demo.lnp"
+C:\Keil\ARM\ARMCC\bin\fromelf.exe "STM32_Demo.axf" --i32combined --output "STM32_Demo.hex"

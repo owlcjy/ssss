@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\startup_stm32f10x_hd.o" "main.o" "stm32f10x_it.o" "rf.o" "function.o" "oled.o" "usart1.o" "i2c.o" "si7021.o" "delay.o" "sx1276-loramisc.o" "spi.o" "gpio.o" "sx1276-lora.o" "core_cm3.o" "system_stm32f10x.o" "misc.o" "stm32f10x_rcc.o" "stm32f10x_gpio.o" "stm32f10x_usart.o" "stm32f10x_flash.o" "stm32f10x_i2c.o" "stm32f10x_spi.o" 
+--library_type=microlib 
+--feedback "STM32_Demo.fed" --feedback_image=simple 
+--strict --scatter "STM32_Demo.sct" 
+--summary_stderr --info summarysizes -o STM32_Demo.axf

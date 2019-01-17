@@ -1,0 +1,314 @@
+Dependencies for Project 'STM32RF', Target 'STM32RF': (DO NOT MODIFY !)
+F (..\Source\STM32_FWLib\CMSIS\startup\startup_stm32f10x_hd.s)(0x49D96948)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list ".\List\startup_stm32f10x_hd.lst" --xref -o ".\startup_stm32f10x_hd.o" --depend ".\startup_stm32f10x_hd.d")
+F (..\Source\Application\main\main.c)(0x5C26D9A4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (..\Source\Application\main\main.h)(0x5AC46082)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\usart1.h)(0x5C2464BC)
+I (..\Source\Drivers\gpio.h)(0x5C2430FA)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+I (..\Source\Drivers\board.h)(0x5C26D7DC)
+I (..\Source\Drivers\si446x.h)(0x5C1E567E)
+I (..\Source\Drivers\SI446X_defs.h)(0x539162D8)
+I (..\Source\Drivers\Oled.h)(0x5C19BA90)
+I (..\Source\Drivers\matrixKey.h)(0x5C2033F6)
+I (..\Source\Drivers\M433k1.h)(0x5C19F6F4)
+I (..\Source\Drivers\M433k10.h)(0x5C19F72A)
+I (..\Source\Drivers\M433k100.h)(0x5C19F750)
+I (..\Source\Drivers\M433k400.h)(0x5C19F770)
+I (..\Source\Drivers\M470k1.h)(0x5C19F790)
+I (..\Source\Drivers\M500k10.h)(0x5C19F7AC)
+I (..\Source\Drivers\M297k10.h)(0x5C1AF6CC)
+I (..\Source\Drivers\M300k1.h)(0x5C1AF6B2)
+I (..\Source\Drivers\M333k10.h)(0x5C1AF694)
+I (..\Source\Drivers\M338k1.h)(0x5C1AF67C)
+I (..\Source\Drivers\M350k1.h)(0x5C1AF664)
+I (..\Source\Drivers\M350k10.h)(0x5C1AF64A)
+I (..\Source\Drivers\M350k100.h)(0x5C1AF62A)
+I (..\Source\Drivers\M350k400.h)(0x5C1AF60C)
+I (..\Source\EPD_W21\Display_EPD_W21.h)(0x5C262390)
+I (..\Source\EPD_W21\EPD_W21_font.h)(0x5C24371A)
+F (..\Source\Application\main\main.h)(0x5AC46082)()
+F (..\Source\Application\main\stm32f10x_it.c)(0x5C1E6230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_it.o" --omf_browse "stm32f10x_it.crf" --depend "stm32f10x_it.d")
+I (..\Source\Application\main\stm32f10x_it.h)(0x5C19D71C)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\matrixKey.h)(0x5C2033F6)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_tim.h)(0x49D9694A)
+I (..\Source\Drivers\board.h)(0x5C26D7DC)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+F (..\Source\Application\main\stm32f10x_it.h)(0x5C19D71C)()
+F (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)()
+F (..\Source\Drivers\oled.c)(0x5C25C7A0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "oled.o" --omf_browse "oled.crf" --depend "oled.d")
+I (..\Source\Drivers\OLED.h)(0x5C19BA90)
+I (..\Source\Drivers\board.h)(0x5C26D7DC)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+I (..\Source\Drivers\font.h)(0x5C19DA7C)
+F (..\Source\Drivers\usart1.c)(0x5C26D7D3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "usart1.o" --omf_browse "usart1.crf" --depend "usart1.d")
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_usart.h)(0x4F8DB9FA)
+I (..\Source\Drivers\usart1.h)(0x5C2464BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (..\Source\Drivers\board.h)(0x5C26D7DC)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+F (..\Source\Drivers\I2C.c)(0x56DED46E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "i2c.o" --omf_browse "i2c.crf" --depend "i2c.d")
+I (..\Source\Drivers\I2C.h)(0x56DED264)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\gpio.h)(0x5C2430FA)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+F (..\Source\Drivers\SI7021.c)(0x5C18ADAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "si7021.o" --omf_browse "si7021.crf" --depend "si7021.d")
+I (..\Source\Drivers\SI7021.h)(0x56E96EB6)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\I2C.h)(0x56DED264)
+I (..\Source\Drivers\gpio.h)(0x5C2430FA)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+F (..\Source\Drivers\Delay.c)(0x5C1E6204)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "delay.o" --omf_browse "delay.crf" --depend "delay.d")
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\Drivers\SPI.c)(0x5C20327E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "spi.o" --omf_browse "spi.crf" --depend "spi.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_spi.h)(0x5C1E08BA)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\Drivers\gpio.c)(0x5C247DF4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "gpio.o" --omf_browse "gpio.crf" --depend "gpio.d")
+I (..\Source\Drivers\gpio.h)(0x5C2430FA)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\Drivers\board.c)(0x5C1E4766)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "board.o" --omf_browse "board.crf" --depend "board.d")
+I (..\Source\Drivers\board.h)(0x5C26D7DC)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_spi.h)(0x5C1E08BA)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_tim.h)(0x49D9694A)
+F (..\Source\Drivers\matrixKey.c)(0x5C1E657E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "matrixkey.o" --omf_browse "matrixkey.crf" --depend "matrixkey.d")
+I (..\Source\Drivers\matrixKey.h)(0x5C2033F6)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\board.h)(0x5C26D7DC)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+F (..\Source\Drivers\si446x.c)(0x5C1E5F1A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "si446x.o" --omf_browse "si446x.crf" --depend "si446x.d")
+I (..\Source\Drivers\si446x.h)(0x5C1E567E)
+I (..\Source\Drivers\SI446X_defs.h)(0x539162D8)
+I (..\Source\Drivers\board.h)(0x5C26D7DC)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\Drivers\Delay.h)(0x56DED476)
+I (..\Source\Drivers\radio_config_Si4461.h)(0x5C1E62B8)
+F (..\Source\STM32_FWLib\CMSIS\core_cm3.c)(0x49D96948)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "core_cm3.o" --omf_browse "core_cm3.crf" --depend "core_cm3.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+F (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.c)(0x4DE9AAF0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "system_stm32f10x.o" --omf_browse "system_stm32f10x.crf" --depend "system_stm32f10x.d")
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\misc.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "misc.o" --omf_browse "misc.crf" --depend "misc.d")
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\stm32f10x_rcc.c)(0x4F8EC044)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_rcc.o" --omf_browse "stm32f10x_rcc.crf" --depend "stm32f10x_rcc.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\stm32f10x_gpio.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_gpio.o" --omf_browse "stm32f10x_gpio.crf" --depend "stm32f10x_gpio.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\stm32f10x_usart.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_usart.o" --omf_browse "stm32f10x_usart.crf" --depend "stm32f10x_usart.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_usart.h)(0x4F8DB9FA)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\stm32f10x_flash.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_flash.o" --omf_browse "stm32f10x_flash.crf" --depend "stm32f10x_flash.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\stm32f10x_i2c.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_i2c.o" --omf_browse "stm32f10x_i2c.crf" --depend "stm32f10x_i2c.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_i2c.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\stm32f10x_spi.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_spi.o" --omf_browse "stm32f10x_spi.crf" --depend "stm32f10x_spi.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_spi.h)(0x5C1E08BA)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\STM32_FWLib\FWlib\src\stm32f10x_tim.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "stm32f10x_tim.o" --omf_browse "stm32f10x_tim.crf" --depend "stm32f10x_tim.d")
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_tim.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+F (..\Source\EPD_W21\Display_EPD_W21.c)(0x5C262A74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "display_epd_w21.o" --omf_browse "display_epd_w21.crf" --depend "display_epd_w21.d")
+I (..\Source\EPD_W21\Display_EPD_W21_Aux.h)(0x5C260232)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)
+I (..\Source\EPD_W21\Display_EPD_W21_Config.h)(0x5B0DFE9C)
+I (..\Source\Drivers\font_EPD.h)(0x5C2628F4)
+I (..\Source\EPD_W21\Display_EPD_W21.h)(0x5C262390)
+F (..\Source\EPD_W21\Display_EPD_W21_Aux.c)(0x595DA666)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\STM32_FWLib\CMSIS -I..\Source\STM32_FWLib\FWlib\inc -I..\Source\Drivers -I..\Source\Application\main -I..\Source\EPD_W21 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "display_epd_w21_aux.o" --omf_browse "display_epd_w21_aux.crf" --depend "display_epd_w21_aux.d")
+I (..\Source\EPD_W21\Display_EPD_W21_Aux.h)(0x5C260232)
+I (..\Source\STM32_FWLib\CMSIS\stm32f10x.h)(0x5AC2F0EA)
+I (..\Source\STM32_FWLib\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\Source\Application\main\stm32f10x_conf.h)(0x4F8DD148)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h)(0x4DEC4B42)
+I (..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Source\STM32_FWLib\FWlib\inc\misc.h)(0x49D9694A)

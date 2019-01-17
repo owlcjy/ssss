@@ -1,0 +1,15 @@
+gpio.o: ..\Source\Drivers\gpio.c
+gpio.o: ..\Source\Drivers\gpio.h
+gpio.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+gpio.o: ..\Source\STM32_FWLib\CMSIS\core_cm3.h
+gpio.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+gpio.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h
+gpio.o: ..\Source\Application\main\stm32f10x_conf.h
+gpio.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h
+gpio.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+gpio.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h
+gpio.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+gpio.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h
+gpio.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+gpio.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h
+gpio.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h

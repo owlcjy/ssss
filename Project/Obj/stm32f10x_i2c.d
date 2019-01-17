@@ -1,0 +1,12 @@
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\FWlib\src\stm32f10x_i2c.c
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_i2c.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\CMSIS\core_cm3.h
+.\Obj\stm32f10x_i2c.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h
+.\Obj\stm32f10x_i2c.o: ..\Source\Application\main\stm32f10x_conf.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h
+.\Obj\stm32f10x_i2c.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h

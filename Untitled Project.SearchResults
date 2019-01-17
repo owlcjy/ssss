@@ -1,0 +1,12 @@
+---- CG_BTEP_configFlag Matches (11 in 2 files) ----
+Main.c (source\application\main):extern u8	CG_BTEP_configFlag;//更新标志
+Main.c (source\application\main):		if(CG_BTEP_configFlag==1)
+Main.c (source\application\main):			CG_BTEP_configFlag=0;
+Usart1.c (source\drivers):u8	CG_BTEP_configFlag=0;//更新标志
+Usart1.c (source\drivers):CG_BTEP_configFlag =1;//更新无线配置
+Usart1.c (source\drivers):CG_BTEP_configFlag =1;//更新无线配置
+Usart1.c (source\drivers):CG_BTEP_configFlag =1;//更新无线配置
+Usart1.c (source\drivers):CG_BTEP_configFlag =1;//更新无线配置
+Usart1.c (source\drivers):CG_BTEP_configFlag =1;//更新无线配置
+Usart1.c (source\drivers):CG_BTEP_configFlag =1;//更新无线配置
+Usart1.c (source\drivers):CG_BTEP_configFlag =1;//更新无线配置

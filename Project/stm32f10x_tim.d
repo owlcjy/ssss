@@ -1,0 +1,15 @@
+stm32f10x_tim.o: ..\Source\STM32_FWLib\FWlib\src\stm32f10x_tim.c
+stm32f10x_tim.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_tim.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\CMSIS\core_cm3.h
+stm32f10x_tim.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h
+stm32f10x_tim.o: ..\Source\Application\main\stm32f10x_conf.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h
+stm32f10x_tim.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h

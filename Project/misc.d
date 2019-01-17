@@ -1,0 +1,14 @@
+misc.o: ..\Source\STM32_FWLib\FWlib\src\misc.c
+misc.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h
+misc.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+misc.o: ..\Source\STM32_FWLib\CMSIS\core_cm3.h
+misc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+misc.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h
+misc.o: ..\Source\Application\main\stm32f10x_conf.h
+misc.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h
+misc.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+misc.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h
+misc.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+misc.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h
+misc.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+misc.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h

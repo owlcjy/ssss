@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\STM32_BT_EP\Project\STM32RF.uvproj
+Project File Date:  12/28/2018
+
+<h2>Output:</h2>
+Build target 'STM32RF'
+compiling main.c...
+..\Source\Drivers\matrixKey.h(32): warning:  #47-D: incompatible redefinition of macro "KEY_ENTER" (declared at line 19)
+..\Source\Application\main\main.c(195): warning:  #223-D: function "EPD_Dis_Logo" declared implicitly
+..\Source\Application\main\main.c(207): warning:  #69-D: integer conversion resulted in truncation
+..\Source\Application\main\main.c(160): warning:  #177-D: variable "li" was declared but never referenced
+..\Source\Application\main\main.c(162): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+..\Source\Application\main\main.c(264): warning:  #177-D: variable "num" was declared but never referenced
+..\Source\Application\main\main.c(611): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Application\main\main.c(612): warning:  #177-D: variable "SenFreq_H" was declared but never referenced
+..\Source\Application\main\main.c(612): warning:  #177-D: variable "SenFreq_L" was declared but never referenced
+..\Source\Application\main\main.c(613): warning:  #177-D: variable "PBufFreq" was declared but never referenced
+..\Source\Application\main\main.c(614): warning:  #177-D: variable "buf" was declared but never referenced
+..\Source\Application\main\main.c(637): error:  #20: identifier "ProdNameUpdata" is undefined
+..\Source\Application\main\main.c(641): error:  #20: identifier "ProdAddUpdata" is undefined
+..\Source\Application\main\main.c(644): error:  #20: identifier "ItemNumUpdata" is undefined
+..\Source\Application\main\main.c(648): error:  #20: identifier "PriceUpdata" is undefined
+..\Source\Application\main\main.c(652): error:  #20: identifier "MemPriceUpdata" is undefined
+..\Source\Application\main\main.c(655): error:  #20: identifier "ProdDateUpdata" is undefined
+..\Source\Application\main\main.c(658): error:  #20: identifier "ChavgeUnitUpdata" is undefined
+compiling usart1.c...
+..\Source\Drivers\usart1.c(351): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(369): warning:  #177-D: variable "rx_comd_num_i" was declared but never referenced
+..\Source\Drivers\usart1.c(370): warning:  #177-D: variable "rx_jhdata_num_i" was declared but never referenced
+..\Source\Drivers\usart1.c(750): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(794): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(794): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(795): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(795): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(819): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(819): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(820): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(820): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(845): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(845): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(846): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(846): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(871): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(871): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(872): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(872): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(897): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(897): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(898): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(898): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(923): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(923): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(924): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(924): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(949): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(949): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(950): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(950): warning:  #177-D: variable "end" was declared but never referenced
+Target not created
+Build target 'STM32RF'
+compiling main.c...
+..\Source\Drivers\matrixKey.h(32): warning:  #47-D: incompatible redefinition of macro "KEY_ENTER" (declared at line 19)
+..\Source\Application\main\main.c(195): warning:  #223-D: function "EPD_Dis_Logo" declared implicitly
+..\Source\Application\main\main.c(207): warning:  #69-D: integer conversion resulted in truncation
+..\Source\Application\main\main.c(160): warning:  #177-D: variable "li" was declared but never referenced
+..\Source\Application\main\main.c(162): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+..\Source\Application\main\main.c(264): warning:  #177-D: variable "num" was declared but never referenced
+..\Source\Application\main\main.c(611): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Application\main\main.c(612): warning:  #177-D: variable "SenFreq_H" was declared but never referenced
+..\Source\Application\main\main.c(612): warning:  #177-D: variable "SenFreq_L" was declared but never referenced
+..\Source\Application\main\main.c(613): warning:  #177-D: variable "PBufFreq" was declared but never referenced
+..\Source\Application\main\main.c(614): warning:  #177-D: variable "buf" was declared but never referenced
+compiling stm32f10x_it.c...
+..\Source\Drivers\matrixKey.h(32): warning:  #47-D: incompatible redefinition of macro "KEY_ENTER" (declared at line 19)
+..\Source\Application\main\stm32f10x_it.c(169): warning:  #177-D: variable "flag1s" was declared but never referenced
+..\Source\Application\main\stm32f10x_it.c(170): warning:  #177-D: variable "POINT_COLOR_re" was declared but never referenced
+..\Source\Application\main\stm32f10x_it.c(171): warning:  #177-D: variable "BACK_COLOR_re" was declared but never referenced
+..\Source\Application\main\stm32f10x_it.c(172): warning:  #177-D: variable "checkSpetimer" was declared but never referenced
+..\Source\Application\main\stm32f10x_it.c(173): warning:  #177-D: variable "speLedValTemp" was declared but never referenced
+..\Source\Application\main\stm32f10x_it.c(174): warning:  #177-D: variable "numKey" was declared but never referenced
+..\Source\Application\main\stm32f10x_it.c(175): warning:  #177-D: variable "numKeyFlag" was declared but never referenced
+compiling oled.c...
+..\Source\Drivers\oled.c(181): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+..\Source\Drivers\oled.c(199): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+compiling usart1.c...
+..\Source\Drivers\usart1.c(343): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(361): warning:  #177-D: variable "rx_comd_num_i" was declared but never referenced
+..\Source\Drivers\usart1.c(362): warning:  #177-D: variable "rx_jhdata_num_i" was declared but never referenced
+..\Source\Drivers\usart1.c(742): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(786): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(786): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(787): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(787): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(811): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(811): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(812): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(812): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(837): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(837): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(838): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(838): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(863): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(863): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(864): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(864): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(889): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(889): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(890): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(890): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(915): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(915): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(916): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(916): warning:  #177-D: variable "end" was declared but never referenced
+..\Source\Drivers\usart1.c(941): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Drivers\usart1.c(941): warning:  #177-D: variable "len" was declared but never referenced
+..\Source\Drivers\usart1.c(942): warning:  #177-D: variable "begin" was declared but never referenced
+..\Source\Drivers\usart1.c(942): warning:  #177-D: variable "end" was declared but never referenced
+compiling board.c...
+..\Source\Drivers\board.c(57): warning:  #223-D: function "SPI2_Init" declared implicitly
+..\Source\Drivers\board.c(66): warning:  #177-D: variable "TIM_OCInitStructure" was declared but never referenced
+compiling matrixKey.c...
+..\Source\Drivers\matrixKey.h(32): warning:  #47-D: incompatible redefinition of macro "KEY_ENTER" (declared at line 19)
+..\Source\Drivers\matrixKey.c(197): warning:  #111-D: statement is unreachable
+..\Source\Drivers\matrixKey.c(220): warning:  #111-D: statement is unreachable
+..\Source\Drivers\matrixKey.c(241): warning:  #111-D: statement is unreachable
+..\Source\Drivers\matrixKey.c(256): warning:  #111-D: statement is unreachable
+..\Source\Drivers\matrixKey.c(258): warning:  #940-D: missing return statement at end of non-void function "KeyProcess"
+compiling si446x.c...
+..\Source\Drivers\si446x.c(49): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+..\Source\Drivers\si446x.c(91): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+..\Source\Drivers\si446x.c(114): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+..\Source\Drivers\si446x.c(134): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+..\Source\Drivers\si446x.c(350): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+..\Source\Drivers\si446x.c(372): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+..\Source\Drivers\si446x.c(423): warning:  #223-D: function "SPI2_Init_CPOL" declared implicitly
+linking...
+Program Size: Code=22380 RO-data=34836 RW-data=472 ZI-data=1728  
+FromELF: creating hex file...
+"STM32_Demo.axf" - 0 Error(s), 68 Warning(s).
+Build target 'STM32RF'
+compiling main.c...
+..\Source\Drivers\matrixKey.h(32): warning:  #47-D: incompatible redefinition of macro "KEY_ENTER" (declared at line 19)
+..\Source\Application\main\main.c(195): warning:  #223-D: function "EPD_Dis_Logo" declared implicitly
+..\Source\Application\main\main.c(207): warning:  #69-D: integer conversion resulted in truncation
+..\Source\Application\main\main.c(160): warning:  #177-D: variable "li" was declared but never referenced
+..\Source\Application\main\main.c(162): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+..\Source\Application\main\main.c(264): warning:  #177-D: variable "num" was declared but never referenced
+..\Source\Application\main\main.c(611): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Application\main\main.c(612): warning:  #177-D: variable "SenFreq_H" was declared but never referenced
+..\Source\Application\main\main.c(612): warning:  #177-D: variable "SenFreq_L" was declared but never referenced
+..\Source\Application\main\main.c(613): warning:  #177-D: variable "PBufFreq" was declared but never referenced
+..\Source\Application\main\main.c(614): warning:  #177-D: variable "buf" was declared but never referenced
+linking...
+Program Size: Code=22452 RO-data=34836 RW-data=472 ZI-data=1728  
+FromELF: creating hex file...
+"STM32_Demo.axf" - 0 Error(s), 11 Warning(s).

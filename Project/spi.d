@@ -1,0 +1,16 @@
+spi.o: ..\Source\Drivers\SPI.c
+spi.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_spi.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\core_cm3.h
+spi.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\system_stm32f10x.h
+spi.o: ..\Source\Application\main\stm32f10x_conf.h
+spi.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_dma.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+spi.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_gpio.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+spi.o: ..\Source\STM32_FWLib\FWlib\inc\stm32f10x_rcc.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+spi.o: ..\Source\STM32_FWLib\FWlib\inc\misc.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
+spi.o: ..\Source\STM32_FWLib\CMSIS\stm32f10x.h
